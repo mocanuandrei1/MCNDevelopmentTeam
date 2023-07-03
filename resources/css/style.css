@@ -85,6 +85,9 @@ header {
     background-color: #112ff8;
     padding-top: 145px;
     color: white;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero-section .container {
@@ -144,10 +147,45 @@ header {
 
 .hero-section .container .hero-section-image {
     width: 30%;
+    display: flex;
+    align-items: center;
 }
 
 .hero-section .container .hero-section-image img {
     max-height: 100%;
     max-width: 100%;
+    justify-content: center;
     border-radius: 250px;
+}
+
+/* About Me Section */
+.about-me .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about-me img {
+    max-width: 500px;
+    max-height: 500px;
+    border: 3px solid #112ff8;
+    border-radius: 100px;
+}
+
+.about-me-text {
+    padding: 3rem 5rem;
+}
+
+.about-me-text h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    color: #112ff8;
+}
+
+.about-me-text p {
+    margin: 2rem 0; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.2rem;
 }
