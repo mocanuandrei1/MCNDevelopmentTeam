@@ -9,7 +9,7 @@ const mobileMenu = document.getElementById("mobile-menu");
 const mobileMenuBtn = document.getElementById("mobile-menu-btn");
 const mobileMenuBtnIcon = document.querySelector("#mobile-menu-btn a i");
 
-heroSection.style.height = screen.height + "px";
+heroSection.style.height = window.innerHeight + "px";
 
 //Header change
 const primaryHeader = document.querySelector("#primary-header");
