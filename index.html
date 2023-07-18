@@ -6,61 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="resources/css/style.css">
     <script src="resources/js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/3518d614ef.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Quicksand:wght@300&family=Raleway&display=swap" rel="stylesheet">
     <title>MCN Development Team</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav class="meniu-mcn">
-                <a href="">
-                    <img src="resources/logo/mcn-development-team-high-resolution-color-logo (1).png" alt="Website Logo">
-                </a>
+    <header id="primary-header">
+            <nav id="meniu-mcn">
+                <div>
+                    <a href="">
+                        <img src="resources/logo/logo-backgroundColor.png" alt="Website Logo">
+                    </a>
+                </div>
+                <ul id="menu-list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <div id="mobile-menu-btn">
+                    <a><i class="fa-solid fa-bars" style="color: #ffffff;"></i></a>
+                </div>
+            </nav>
+
+            <div id="mobile-menu">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Projects</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
     </header>
 
     <main>
-        <section class="hero-section" id="hero">
-            <div class="container">
-                    <div class="hero-section-left">
-                        <div class="hero-section-text">
-                            <h1>
-                                <span>Hello, I'm</span>
-                                <br>
-                                Mocanu <strong>Andrei</strong>
-                            </h1>
-                            <p>A web developer</p>
-                        </div>
-                        <div class="hero-section-buttons">
-                            <a href="">Hire Me</a>
-                            <a href="">View My Portfolio</a>
-                        </div>                
-                    </div>
-                    <div class="hero-section-image">
-                        <img src="resources/images/hero-img.png" alt="">
-                    </div>
+        <section id="hero">
+            <div class="hero-section">
+                <div class="hero-section-text">
+                    <h1>
+                        <span>Hello, I'm</span>
+                        <br>
+                        Mocanu <strong>Andrei</strong>
+                    </h1>
+                    <p>A web developer from Romania</p>
+                </div>   
+                <div class="hero-section-img"><img src="resources/images/hero-img.png" alt=""></div>            
             </div>
         </section>
-        <section class="about-me">
-            <div class="container">
-                <img src="resources/images/about-me-image.JPG" alt="about-me-image">
-                <div class="about-me-text">
-                    <h2>ABOUT ME</h2>
+        <section class="home-segment container">
+                <h2>BACKGROUND</h2>
+                <div class="background-text">
                     <p>I am passionate full stack developer from Romania. Ever since I was a kid, I've had a deep love for coding and technology. What started as a curious exploration of the digital world has now become my profession and lifelong pursuit.</p>
                     <p>I believe in the power of collaboration and continuous learning. Staying up to date with the latest industry trends and technologies, I strive to expand my knowledge and improve my skills. Whether it's working independently or as part of a team, I am dedicated to producing exceptional results that exceed expectations.</p>
-                    <p>My commitment to professionalism is unwavering. I approach every project with a meticulous attention to detail and a strong work ethic. I value clear communication and understand the importance of meeting deadlines and delivering projects on time.</p>
                 </div>
+        </section>
+        <section class="home-segment container">
+            <h2>SKILLS</h2>
+            <div class="skills-icons">
+                <i class="fa-brands fa-html5"><p>HTML</p></i>
+                <i class="fa-brands fa-css3-alt"><p>CSS</p></i> 
+                <i class="fa-brands fa-square-js"><p>JAVASCRIPT</p></i>
+                <i class="fa-brands fa-wordpress-simple"><p>WORDPRESS</p></i>
+                <i class="fa-solid fa-c"><p>C#</p></i>
+                <i class="fa-brands fa-github"><p>GITHUB</p></i>
+            </div>
+        </section>
+        <section class="home-segment container">
+            <h2>PROJECTS</h2>
+            <div class="">
+
             </div>
         </section>
     </main>
+    <footer>
+        <p>©2023, Built and designed by Mocanu Andrei</p>
+    </footer>
 </body>
 </html>
